@@ -1,0 +1,76 @@
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.exe
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.deps.json
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.runtimeconfig.json
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.runtimeconfig.dev.json
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.dll
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.pdb
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.Views.dll
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.Views.pdb
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.csproj.AssemblyReference.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.AssemblyInfoInputs.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.AssemblyInfo.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.csproj.CoreCompileInputs.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorAssemblyInfo.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorAssemblyInfo.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\staticwebassets\HolaApi.StaticWebAssets.Manifest.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\staticwebassets\HolaApi.StaticWebAssets.xml
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\HolaApi.styles.css
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.TagHelpers.input.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.TagHelpers.output.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorCoreGenerate.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorTargetAssemblyInfo.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorTargetAssemblyInfo.cs
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.Views.pdb
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.dll
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.pdb
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.genruntimeconfig.cache
+C:\Users\dgonzalezdelaoliva\source\repos\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.csproj.CopyComplete
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.exe
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.deps.json
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.runtimeconfig.json
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.runtimeconfig.dev.json
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.pdb
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.Views.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\bin\Debug\netcoreapp3.1\HolaApi.Views.pdb
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.csproj.AssemblyReference.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.AssemblyInfoInputs.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.AssemblyInfo.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.csproj.CoreCompileInputs.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.MvcApplicationPartsAssemblyInfo.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorAssemblyInfo.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorAssemblyInfo.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\staticwebassets\HolaApi.StaticWebAssets.Manifest.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\staticwebassets\HolaApi.StaticWebAssets.xml
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\HolaApi.styles.css
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.TagHelpers.input.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.TagHelpers.output.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorCoreGenerate.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorTargetAssemblyInfo.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.RazorTargetAssemblyInfo.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.Views.pdb
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.pdb
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.genruntimeconfig.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\HolaApi\HolaApi\obj\Debug\netcoreapp3.1\HolaApi.csproj.CopyComplete

@@ -1,0 +1,5 @@
+C:\Users\dgonzalezdelaoliva\source\repos\WebApplication1\WebApplication1\obj\Release\netcoreapp3.1\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dgonzalezdelaoliva\source\repos\WebApplication1\WebApplication1\obj\Release\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\dgonzalezdelaoliva\source\repos\WebApplication1\WebApplication1\obj\Release\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
+C:\Users\dgonzalezdelaoliva\source\repos\WebApplication1\WebApplication1\obj\Release\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\dgonzalezdelaoliva\source\repos\WebApplication1\WebApplication1\obj\Release\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache

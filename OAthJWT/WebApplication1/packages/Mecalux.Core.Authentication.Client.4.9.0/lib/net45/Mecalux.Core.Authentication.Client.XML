@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mecalux.Core.Authentication.Client</name>
+    </assembly>
+    <members>
+        <member name="T:Mecalux.Core.Authentication.Client.Contracts.IJsonSerializer">
+            <summary>
+            Serializer for Resclient
+            </summary>
+        </member>
+        <member name="T:Mecalux.Core.Authentication.Client.Contracts.IOAuthServer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Contracts.IOAuthServer.AuthorizationMethod">
+            <summary>
+            Configuracion de los permisos de cada uno de los recursos registrados en el SAA
+            </summary>
+            <returns>Lista de permisos</returns>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Contracts.IOAuthServer.GetApplications">
+            <summary>
+            Lista de aplicaciones registradas en el SAA
+            </summary>
+            <returns>Lista de aplicaciones</returns>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Contracts.IOAuthServer.GetServices">
+            <summary>
+            Lista de servicios registrados en el SAA
+            </summary>
+            <returns>Lista de servicios</returns>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.CustomDelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <exception cref="T:System.Reflection.TargetInvocationException">El algoritmo se utilizó estando habilitado el modo FIPS (Estándar federal de procesamiento de información), pero no es compatible con FIPS.</exception>
+        </member>
+        <member name="T:Mecalux.Core.Authentication.Client.Dtos.UserInfoDto">
+            <summary>
+            Objeto que será usado para devolver los datos del LDAP
+            </summary>
+        </member>
+        <member name="T:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException">
+            <summary>
+            Error devuelvo ante peticiones GET
+            </summary>
+        </member>
+        <member name="P:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException.StatusCode">
+            <summary>
+            Codigo de error
+            </summary>
+        </member>
+        <member name="P:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException.StatusDescription">
+            <summary>
+            Descripcion del codigo
+            </summary>
+        </member>
+        <member name="P:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException.Url">
+            <summary>
+            Direccion de la peticion
+            </summary>
+        </member>
+        <member name="P:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException.Content">
+            <summary>
+            Contenido
+            </summary>
+        </member>
+        <member name="P:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException.Reason">
+            <summary>
+            Razon del error si se conoce
+            </summary>
+        </member>
+        <member name="P:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException.Message">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException.#ctor(System.String,System.Net.HttpStatusCode,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="statusCode"></param>
+            <param name="statusDescription"></param>
+            <param name="content"></param>
+            <param name="reason">Razon del error</param>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Exceptions.GetRestClientException.ToString">
+            <summary>
+            Representacion por consola del error
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Mecalux.Core.Authentication.Client.Exceptions.RestClientEndPointNotFoundException">
+            <inheritdoc />
+        </member>
+        <member name="P:Mecalux.Core.Authentication.Client.Exceptions.RestClientEndPointNotFoundException.Message">
+            <summary>
+            Mensaje
+            </summary>
+        </member>
+        <member name="P:Mecalux.Core.Authentication.Client.Exceptions.RestClientEndPointNotFoundException.InnerException">
+            <summary>
+            Excepcion interna
+            </summary>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Exceptions.RestClientEndPointNotFoundException.#ctor(System.String,System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.HttpClient.#ctor(Mecalux.Core.Domain.Entities.JWT.OAuthConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="oAuthConfiguration">onfiguracion para la interaccion con el servidor de OAuth</param>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.OAuthClient.#ctor(Mecalux.Core.Domain.Entities.JWT.OAuthConfiguration,Mecalux.Core.Authentication.Client.Contracts.IHttpClient)">
+            <exception cref="T:System.ArgumentNullException"><paramref name="oAuthConfiguration"/> is <see langword="null" />.</exception>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.OAuthClient.UserInfo">
+            <summary>
+            devuelve el JWebToken del usuario
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.OAuthClient.Authorization(System.String,System.String)">
+            <summary>
+            Autoriza a un usuario
+            </summary>
+            <param name="userName"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.OAuthServer.#ctor(Mecalux.Core.Domain.Entities.JWT.OAuthConfiguration,Mecalux.Core.Authentication.Client.Contracts.IHttpClient)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="oAuthConfiguration">Configuracion para la interaccion con el servidor de OAuth</param>
+            <param name="httpClient">Cliente HttpClient</param>
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.OAuthServer.AuthorizationMethod">
+            <inheritdoc />
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.OAuthServer.GetApplications">
+            <inheritdoc />
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.OAuthServer.GetServices">
+            <inheritdoc />
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.RestClient.Get``1(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.RestClient.Get(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.RestClient.Post``2(System.String,``0,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.RestClient.Put``1(System.String,``0,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Mecalux.Core.Authentication.Client.Services.RestClient.Delete(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

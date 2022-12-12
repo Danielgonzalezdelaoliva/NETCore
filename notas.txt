@@ -1,0 +1,101 @@
+https://youtube.com/playlist?list=PLYAyQauAPx8mBKpSx_fSb8ygESkxviW5C
+web api core: para multiplaformas
+
+https://dotnettutorials.net/lesson/environment-setup-asp-net-core-web-api/
+
+a partir de de .NET 6 la clase startup.cs no aparece. 
+https://stackoverflow.com/questions/70952271/startup-cs-class-is-missing-in-net-6
+
+C:\>dotnet --help
+SDK de .NET (5.0.401)
+
+C:\>dotnet –-info
+
+
+appsettings.json = web.config
+
+
+
+Middleware = software intermedio. Tambien es conocido como canalización de procesamiento de la solicitud
+Middleware  : funcionalidades que queremos insertar en nuestra aplicación ASP.NET Core Web API
+
+UseHttpsRedirection(): si desea implementar el enrutamiento en su aplicación, debe usar el middleware de enrutamiento en la canalización de procesamiento de solicitudes HTTP
+app.UseAuthentication(): si desea autenticar al usuario, debe usar el Middleware de autenticación.
+app.UseAuthorization(): el middleware de autorización se utiliza para autorizar a los usuarios mientras acceden a un recurso específico
+**Log ** (no estoy seguro):  si desea registrar la solicitud y la respuesta durante el procesamiento, necesita Middleware.
+app.UseExceptionHandler:  también puede usar Middleware para manejar la excepción globalmente.
+
+UseDeveloperExceptionPage(): El middleware UseDeveloperExceptionPage se ejecutará cuando se produzca una excepción no controlada en la aplicación y, dado que está en modo de desarrollo, le mostrará la información detallada de la excepción
+
+
+UseRouting() : UseRouting Middleware solo habilita el enrutamiento para su aplicación. Esto no asignará ninguna URL a ningún recurso.
+UseEndpoints(): este middleware asignará la URL al recurso (controllador)
+
+
+El proyecto HolaApi tiene agregado estas configuraciones :
+
+Run()  Method: se utiliza para completar la ejecución del middleware
+Use()  Method: se utiliza para insertar un nuevo componente de Middleware en la canalización de procesamiento de solicitudes
+Next() Method: se usa para llamar al siguiente componente de middleware en la canalización de procesamiento de solicitudes.
+Map()  Method: se utiliza para asignar el Middleware a una URL específica.
+
+
+Habilitación del enrutamiento debemos agregar:
+
+UseRouting():
+UseEndpoints()
+
+para enrutar los URL con el recurso (controllador)
+app.UseEndpoints(endpoints =>
+{
+	endpoints.MapControllers();
+});
+
+
+
+https://dotnettutorials.net/lesson/routing-in-asp-net-core-web-api/
+https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio-code
+
+
+Tipos de retorno:
+
+Specific type:
+
+Cualquier tipo de datos primitivo de métodos de acción como int, string, bool, etc.
+Cualquier objeto de datos complejos como Empleado, Estudiante, Producto, etc.
+Colección de objetos (como List<T>, etc.)
+IEnumerable<T>
+IAsyncEnumerable<T>, etc.
+
+IActionResult:
+IActionResult es una interfaz y se utiliza para devolver varios tipos de datos. Por ejemplo, si desea devolver datos NotFound, OK, Redirect, etc. desde su método de acción, entonces necesita usar IActionResult como el tipo de retorno de su método de acción
+
+Nos permite devolver múltiples tipos de datos junto con el código de estado, esto es muy importante para las API RESTful
+
+ActionResult<T>:
+os permite devolver un tipo derivado de ActionResult o devolver un tipo específico.
+
+
+Microservicios
+Monolítica y Microservicio
+Características de la puerta de enlace API:  es una capa para que todos los microservicios no estén expuestos directamente al cliente. Es decir, que hay una capa entre cliente y los microservicios. Esta capa incluye
+recoge todos los accesos a los microservicios y redirige las peticiones entre cliente y los microservicios
+
+Es necesario crear un proyecto API Gateway ==> 
+
+Configuración de rutas Ocelot en ASP.NET Core
+
+DownstreamPathTemplate es la ruta del extremo real en el microservicio al que API Gateway redirige la solicitud entrante del cliente.
+
+DownstreamScheme es el esquema utilizado por Microservice, que es HTTPS.
+
+DownstreamHostAndPorts define la ubicación del microservicio. Donde agregaremos los detalles del host y los detalles del número de puerto.
+
+UpstreamPathTemplate es la ruta que se dirige a Ocelot API Gateway expuesta para enviar solicitudes del cliente.
+
+UpstreamHttpMethod es el método HTTP compatible con API Gateway, como GET/PUT/POST/DELETE. Según el método HTTP entrante, Ocelot también reenvía una solicitud de método HTTP similar al microservicio.
+
+Upstream:   la solicitud enviada por el cliente a API Gateway.
+Downstream: solicitud enviada al microservicio específico por parte de API Gateway.
+
+

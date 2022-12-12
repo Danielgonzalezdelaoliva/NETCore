@@ -1,0 +1,3 @@
+
+-- para crear modelo en ASPNET Core.
+Scaffold-DbContext "server=intbdmisc01;user id=cca_adm;port=3301;password=)XI6YOBdfQ;database=cca;" MySql.Data.EntityFrameworkCore
