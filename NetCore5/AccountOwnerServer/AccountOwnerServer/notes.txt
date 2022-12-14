@@ -1,0 +1,11 @@
+https://code-maze.com/net-core-web-development-part2/
+
+clase ServiceExtensions
+habilitamos Cors para poder acceder a los metodos desde un dominio diferentes. (por ejemplo Angular).
+
+
+ IOC (Inversion of Control) --> Un contenedor IOC es esencialmente una fábrica que se encarga de proporcionar instancias de los tipos que se le solicitan.
+ 
+ para inyectar en el constructor del controllador un interfase
+
+

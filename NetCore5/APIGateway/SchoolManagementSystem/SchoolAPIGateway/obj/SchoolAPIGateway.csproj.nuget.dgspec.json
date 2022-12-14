@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\SchoolManagementSystem\\SchoolAPIGateway\\SchoolAPIGateway.csproj": {}
+    "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\SchoolManagementSystem\\SchoolAPIGateway\\SchoolAPIGateway.csproj": {}
   },
   "projects": {
-    "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\SchoolManagementSystem\\SchoolAPIGateway\\SchoolAPIGateway.csproj": {
+    "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\SchoolManagementSystem\\SchoolAPIGateway\\SchoolAPIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\SchoolManagementSystem\\SchoolAPIGateway\\SchoolAPIGateway.csproj",
+        "projectUniqueName": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\SchoolManagementSystem\\SchoolAPIGateway\\SchoolAPIGateway.csproj",
         "projectName": "SchoolAPIGateway",
-        "projectPath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\SchoolManagementSystem\\SchoolAPIGateway\\SchoolAPIGateway.csproj",
+        "projectPath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\SchoolManagementSystem\\SchoolAPIGateway\\SchoolAPIGateway.csproj",
         "packagesPath": "C:\\Users\\dgonzalezdelaoliva\\.nuget\\packages\\",
-        "outputPath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\SchoolManagementSystem\\SchoolAPIGateway\\obj\\",
+        "outputPath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\SchoolManagementSystem\\SchoolAPIGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

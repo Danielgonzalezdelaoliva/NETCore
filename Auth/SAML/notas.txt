@@ -1,0 +1,47 @@
+https://trial-9612586.okta.com/app/exk3kvk9ihqhfUJOA697/sso/saml/metadata
+
+
+https://developer.okta.com/blog/2020/10/23/how-to-authenticate-with-saml-in-aspnet-core-and-csharp
+
+SAML lenguaje de marcado de aserción de seguridad 
+Es un estándar abierto basado en XML para transferir datos de identidad entre dos partes: un proveedor de identidad (IdP) y un proveedor de servicios (SP).
+
+Objetivo: proporcionar un único de inicio de sesión
+
+Notas:con la introducción de OpenID Connect , que es una capa de autenticación construida sobre OAuth2, SAML ha quedado obsoleto.
+
+proveedor identidad: realiza la autenticación y pasa la identidad y el nivel de autorización del usuario al proveedor de servicios
+
+proveedor servicios: confía en el proveedor de identidad y autoriza al usuario dado a acceder al recurso solicitado
+
+
+
+
+
+ "Issuer": "http://www.okta.com/exk3kvk9ihqhfUJOA697",
+ 
+ Okta_SAML_Example
+ 
+ 
+ SAML (Security Assertion Markup Language) 
+es un estándar basado en XML para el intercambio de datos de autenticación y autorización entre un  proveedor de identidad  (IdP) como Okta y un  proveedor de servicios  (SP) como Box, Salesforce, G Suite, Workday, etc
+ 
+ 
+ ¿Qué significa la palabra aserciones?
+Acción y efecto de afirmar o dar por cierto algo . 2. f. Proposición en que se afirma o da por cierto algo .
+
+Datos necesarios para configurar la aplicación okta
+ 
+La URL específica (pecific URL) de la aplicación a la que deben enviarse las aserciones SAML de Okta (normalmente denominada ACS). En Okta, esto se ingresa en el campo URL de inicio de sesión único de la aplicación  . Recuerde que es muy probable que esta no sea la misma URL que la página de inicio de sesión básica de la aplicación, que generalmente no puede recibir ni procesar aserciones SAML.
+
+Restricción de audiencia (Audience Restriction),  que dicta la entidad o audiencia a la que está destinada la Afirmación SAML. Los proveedores suelen referirse a este campo como "ID de entidad" o "URI de audiencia". Técnicamente, puede ser cualquier cadena de datos de hasta 1024 caracteres, pero generalmente tiene la forma de una URL que contiene el nombre del proveedor de servicios y, a menudo, es simplemente la misma URL que el ACS.
+
+Datos necesarios para configurar la aplicación Visual Studio
+
+La URL de inicio de sesión único del proveedor de identidad (dentity Provider Single Sign-On URL) . El SP puede referirse a esto como "URL de SSO" o "Punto final SAML". Es la única URL real que Okta proporciona al configurar una aplicación SAML, por lo que es seguro decir que cualquier campo en el lado del proveedor de servicios que espera una URL necesitará que se ingrese.
+
+El emisor del proveedor de identidad ( Identity Provider Issuer). Esto a menudo se denomina ID de entidad o simplemente "Emisor". La afirmación contendrá esta información y el SP la utilizará como verificación.
+
+El Certificado x.509 (x.509 Certificate). Algunos proveedores de servicios le permiten cargarlo como archivo, mientras que otros requieren que lo pegue como texto en un campo.
+ 
+ 

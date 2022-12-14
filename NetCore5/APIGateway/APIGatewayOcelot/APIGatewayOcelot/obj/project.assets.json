@@ -410,11 +410,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\APIGatewayOcelot\\APIGatewayOcelot\\APIGatewayOcelot.csproj",
+      "projectUniqueName": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\APIGatewayOcelot\\APIGatewayOcelot\\APIGatewayOcelot.csproj",
       "projectName": "APIGatewayOcelot",
-      "projectPath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\APIGatewayOcelot\\APIGatewayOcelot\\APIGatewayOcelot.csproj",
+      "projectPath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\APIGatewayOcelot\\APIGatewayOcelot\\APIGatewayOcelot.csproj",
       "packagesPath": "C:\\Users\\dgonzalezdelaoliva\\.nuget\\packages\\",
-      "outputPath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\APIGatewayOcelot\\APIGatewayOcelot\\obj\\",
+      "outputPath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\APIGatewayOcelot\\APIGatewayOcelot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

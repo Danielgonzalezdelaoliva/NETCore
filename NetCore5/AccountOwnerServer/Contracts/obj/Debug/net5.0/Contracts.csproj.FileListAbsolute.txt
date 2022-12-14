@@ -1,0 +1,11 @@
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\bin\Debug\net5.0\Contracts.deps.json
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\bin\Debug\net5.0\Contracts.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\bin\Debug\net5.0\ref\Contracts.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\bin\Debug\net5.0\Contracts.pdb
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\obj\Debug\net5.0\ref\Contracts.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ot/uHyTbMdNxi7mRwJL3nGAWTf/QONc+NaZ9XUYuZckW9JyEiaJnvN6zEnUU3GGmTz9dDk9NqkGs3RUCplwy1g==",
+  "dgSpecHash": "9/jk0P5NsR9mN14nx8NRWuBbqEeGxgciQCEN3kgTVa7jqVK5QoFR3kB4VQrX8T2VUz7h+lwKlPTO8h9U0in9Xw==",
   "success": true,
-  "projectFilePath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\SchoolManagementSystem\\StudentAttendanceManagement\\StudentAttendanceManagement.csproj",
+  "projectFilePath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\SchoolManagementSystem\\StudentAttendanceManagement\\StudentAttendanceManagement.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

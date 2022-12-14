@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+/iTGwYebmNTMpZqu+NS9JhrMMQcXxmj3p4E64SihNNNOxxEcPyADMvWaM72qo6+kDPNDbEAIMDUKF7txHr1RQ==",
+  "dgSpecHash": "9eTCgC/xbod6cqIAhm1iMh1cE0EibNzcup8Gh5lWQis4S8DvcufSu0NxakP1R6vqQ2n+WP3t7H2L9rc73sM/kA==",
   "success": true,
-  "projectFilePath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\SchoolManagementSystem\\StudentAdmissionManagement\\StudentAdmissionManagement.csproj",
+  "projectFilePath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\SchoolManagementSystem\\StudentAdmissionManagement\\StudentAdmissionManagement.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

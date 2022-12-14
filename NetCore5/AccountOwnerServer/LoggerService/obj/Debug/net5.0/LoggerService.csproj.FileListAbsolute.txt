@@ -1,0 +1,15 @@
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.csproj.AssemblyReference.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfoInputs.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfo.cs
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CoreCompileInputs.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\bin\Debug\net5.0\LoggerService.deps.json
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\bin\Debug\net5.0\LoggerService.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\bin\Debug\net5.0\ref\LoggerService.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\bin\Debug\net5.0\LoggerService.pdb
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\bin\Debug\net5.0\Contracts.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\bin\Debug\net5.0\Contracts.pdb
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CopyComplete
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.pdb

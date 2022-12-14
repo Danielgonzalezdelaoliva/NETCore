@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oGedSskwBoNohcvhq093X/au6RXpQJONKKJdYh91MC1uue8sfK/w6FtlTXxfvoP1MU6jdWN7AK88Lne9FrHY+Q==",
+  "dgSpecHash": "Xn32J9Af2p2WBM7FuOX6Tnd7MDGSsodOE10VBbNEvQWDtLaS94yvgfzoUAuOXfOOzNSyDn2KHL16cVIAnuGqTw==",
   "success": true,
-  "projectFilePath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\APIGatewayOcelot\\APIGatewayOcelot\\APIGatewayOcelot.csproj",
+  "projectFilePath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\NetCore5\\APIGateway\\APIGatewayOcelot\\APIGatewayOcelot\\APIGatewayOcelot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dgonzalezdelaoliva\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\dgonzalezdelaoliva\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.0\\microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
