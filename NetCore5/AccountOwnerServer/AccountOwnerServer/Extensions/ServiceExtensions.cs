@@ -1,11 +1,11 @@
 ﻿using Contracts;
+using Entities;
 using LoggerService;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Repository;
 
 namespace AccountOwnerServer.Extensions
 {
@@ -31,10 +31,24 @@ namespace AccountOwnerServer.Extensions
             });
         }
 
-
+        //habilitamos la interface para ICO(Inversión de control) y para inyertar en el controladores (DI) inyección dependencia
         public static void ConfigureLoggerService(this IServiceCollection services)
         {
             services.AddSingleton<ILoggerManager, LoggerManager>();
+        }
+
+        //agregar la conexion a BD
+        public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
+        {
+            var connectionString = config["mysqlconnection:connectionString"];
+            services.AddDbContext<RepositoryContext>(o => o.UseMySql(connectionString,
+                MySqlServerVersion.LatestSupportedServerVersion));
+        }
+
+        //agregamos el repositorio que envuelve todos los ropositorios
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
         }
     }
 }

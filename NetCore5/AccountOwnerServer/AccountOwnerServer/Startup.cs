@@ -35,6 +35,15 @@ namespace AccountOwnerServer
             //agregamos el registro de errores (log) solo una instancia por ejecución
             services.ConfigureLoggerService();
 
+            //agreganmos la cadena de conxión
+            services.ConfigureMySqlContext(Configuration);
+
+            //agregamos el repositorio que envuelve a todos los repositorios especificos
+            services.ConfigureRepositoryWrapper();
+
+            //agregamos el sevicio de Mapper
+            services.AddAutoMapper(typeof(Program));
+
             //agregamos servicio para visualizar controllers
             services.AddControllers();
         }

@@ -8,4 +8,131 @@ habilitamos Cors para poder acceder a los metodos desde un dominio diferentes. (
  
  para inyectar en el constructor del controllador un interfase
 
+Relaciones de entidades
+https://learn.microsoft.com/en-us/ef/core/modeling/relationships?tabs=fluent-api%2Cfluent-api-simple-key%2Csimple-key
+
+public class Blog
+{
+    public int BlogId { get; set; }
+    public string Url { get; set; }
+
+    public List<Post> Posts { get; set; }
+}
+
+public class Post
+{
+    public int PostId { get; set; }
+    public string Title { get; set; }
+    public string Content { get; set; }
+
+    public int BlogId { get; set; }  --> no es obligatorio
+    public Blog Blog { get; set; }
+}
+
+Post es la entidad dependiente
+
+Blog es la entidad principal
+
+Blog.BlogId es la clave principal (en este caso es una clave principal en lugar de una clave alternativa)
+
+Post.BlogId es la clave foránea
+
+Post.Blog es una propiedad de navegación de referencia
+
+Blog.Posts es una propiedad de navegación de colección
+
+Post.Blog es la propiedad de navegación inversa de Blog.Posts(y viceversa)
+
+Configurar con Fluent API una FK (clave foranea) simple
+
+internal class MyContext : DbContext
+{
+    public DbSet<Blog> Blogs { get; set; }
+    public DbSet<Post> Posts { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+
+	modelBuilder.Entity<Blogs>()
+	   .HasKey(b. => b.BlogId);
+
+	modelBuilder.Entity<Posts>()
+	   .HasKey(p. => p.PostId);
+
+
+        modelBuilder.Entity<Post>()
+            .HasOne(p => p.Blog)
+            .WithMany(b => b.Posts)
+            .HasForeignKey(p => p.BlogForeignKey);
+    }
+}
+
+public class Blog
+{
+    public int BlogId { get; set; }
+    public string Url { get; set; }
+
+    public List<Post> Posts { get; set; }
+}
+
+public class Post
+{
+    public int PostId { get; set; }
+    public string Title { get; set; }
+    public string Content { get; set; }
+
+    public int BlogForeignKey { get; set; }
+    public Blog Blog { get; set; }
+}
+
+HasOne/ WithOnese usan para las propiedades de navegación de referencia 
+HasMany/ WithManyse usan para las propiedades de navegación de la colección.
+
+
+Configurar con Fluent API una FK  (clave foranea) compuesta
+
+internal class MyContext : DbContext
+{
+    public DbSet<Car> Cars { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+	//Keys
+        modelBuilder.Entity<Car>()
+            .HasKey(c => new { c.State, c.LicensePlate });
+
+	//Relations
+        modelBuilder.Entity<RecordOfSale>()
+            .HasOne(s => s.Car)
+            .WithMany(c => c.SaleHistory)
+            .HasForeignKey(s => new { s.CarState, s.CarLicensePlate });
+    }
+}
+
+public class Car
+{
+    public string State { get; set; }
+    public string LicensePlate { get; set; }
+    public string Make { get; set; }
+    public string Model { get; set; }
+
+    public List<RecordOfSale> SaleHistory { get; set; }
+}
+
+public class RecordOfSale
+{
+    public int RecordOfSaleId { get; set; }
+    public DateTime DateSold { get; set; }
+    public decimal Price { get; set; }
+
+    public string CarState { get; set; }
+    public string CarLicensePlate { get; set; }
+    public Car Car { get; set; }
+}
+
+
+
+DTO u Objeto de transferencia de datos sirve para transferir datos del servidor al cliente
+ El objeto DTO podría ser exactamente igual que el objeto modelo, pero aun así, es mucho mejor usar objetos DTO porque si algo cambia en la base de datos, la clase del modelo debe cambiar, pero eso no significa que el cliente quiera resultados modificados. 
+
 

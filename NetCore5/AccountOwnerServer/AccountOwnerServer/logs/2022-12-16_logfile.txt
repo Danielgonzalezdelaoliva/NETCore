@@ -1,0 +1,14 @@
+2022-12-16 15:05:17.0570 INFO Here is info message from the controller.
+2022-12-16 15:05:17.5987 DEBUG Here is debug message from the controller.
+2022-12-16 15:05:17.8192 WARN Here is warn message from the controller.
+2022-12-16 15:05:18.0755 ERROR Here is error message from the controller.
+2022-12-16 15:48:08.8017 ERROR Something went wrong inside GetAllClients action: Table 'cca.client' doesn't exist
+2022-12-16 15:49:04.7699 ERROR Something went wrong inside GetAllClients action: Table 'cca.client' doesn't exist
+2022-12-16 15:52:16.0517 INFO Returned all Clients from database.
+2022-12-16 16:03:53.8309 INFO Returned all Clients from database.
+2022-12-16 16:05:15.9080 INFO Returned all Clients from database.
+2022-12-16 16:13:45.2367 INFO Returned all Clients from database.
+2022-12-16 17:56:53.6074 INFO Returned all Clients from database.
+2022-12-16 18:03:36.9057 ERROR Client with IdClientBase: 0, hasn't been found in db.
+2022-12-16 18:04:15.6734 INFO Returned all Clients from database.
+2022-12-16 18:05:22.4808 INFO Returned Client with IdClientBase: 703

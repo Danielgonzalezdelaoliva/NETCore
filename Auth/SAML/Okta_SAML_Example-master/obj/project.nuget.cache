@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oYvR4e3CdElDExO7SLOw/tzQC8NneICsD/1DuPvXYq0xMRgrxhXDrhxwSD/vaOa21FF2hy31RtfUcDm7LgsPig==",
+  "dgSpecHash": "zFXZyghjkV0Y4yc5hw+uf5LrZcsAHj8uWB+UGOak/6qZV+O4XLgZreHxBSK0zsJHv9zITzfJbItQ1waMJ0XjqA==",
   "success": true,
-  "projectFilePath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\Okta_SAML_Example-master_old\\Okta_SAML_Example.csproj",
+  "projectFilePath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\Auth\\SAML\\Okta_SAML_Example-master\\Okta_SAML_Example.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dgonzalezdelaoliva\\.nuget\\packages\\itfoxtec.identity.saml2\\4.0.8\\itfoxtec.identity.saml2.4.0.8.nupkg.sha512",
     "C:\\Users\\dgonzalezdelaoliva\\.nuget\\packages\\itfoxtec.identity.saml2.mvccore\\4.0.8\\itfoxtec.identity.saml2.mvccore.4.0.8.nupkg.sha512",

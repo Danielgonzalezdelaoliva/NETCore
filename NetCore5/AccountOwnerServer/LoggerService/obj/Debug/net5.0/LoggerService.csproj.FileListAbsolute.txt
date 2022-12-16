@@ -13,3 +13,5 @@ D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServe
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.dll
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.pdb
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\bin\Debug\net5.0\Entities.dll
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\NetCore5\AccountOwnerServer\LoggerService\bin\Debug\net5.0\Entities.pdb
