@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entities.Models;
+using System;
 
 namespace Entities.DataTransferObjects
 {
@@ -31,5 +28,7 @@ namespace Entities.DataTransferObjects
         public int IdProductType { get; set; }
 
         public DateTime? DateLastUpd { get; set; }
+       
+        public ProductType ProductType { get; set; }
     }
 }

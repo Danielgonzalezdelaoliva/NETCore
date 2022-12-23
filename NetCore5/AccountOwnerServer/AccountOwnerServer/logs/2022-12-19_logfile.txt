@@ -1,0 +1,22 @@
+2022-12-19 14:26:21.9443 ERROR Something went wrong inside GetClientById action: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseMySql' call.
+2022-12-19 14:26:35.2970 INFO Returned Client with IdClientBase: 703
+2022-12-19 15:12:51.9008 INFO Returned owner with details for IdClientBase: 703
+2022-12-19 15:14:37.6986 INFO Returned owner with details for IdClientBase: 383
+2022-12-19 15:20:19.3624 INFO Returned owner with details for IdClientBase: 440
+2022-12-19 15:32:18.8289 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 16:28:44.2694 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 16:32:37.9388 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 16:34:23.6457 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 16:35:48.6886 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 16:45:46.8175 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 16:47:25.6440 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 16:51:44.9754 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 16:58:53.6671 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 17:09:20.7606 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 17:39:44.1405 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 17:40:13.3751 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 17:45:21.6887 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 17:45:38.2355 INFO Returned Client with IdClientBase: 703
+2022-12-19 17:46:11.1409 INFO Returned owner with details for IdClientBase: 440
+2022-12-19 17:56:20.4370 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-19 18:00:57.4363 INFO Returned owner with details with ProductTpye for IdClientBase: 440

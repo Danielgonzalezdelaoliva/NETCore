@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Entities.DataTransferObjects
 {
@@ -19,5 +16,7 @@ namespace Entities.DataTransferObjects
         public string IntegrationStatus { get; set; }
 
         public string Integration { get; set; }
+
+        public IEnumerable<ClientCycleDTO> ClientCycles { get; set; }
     }
 }

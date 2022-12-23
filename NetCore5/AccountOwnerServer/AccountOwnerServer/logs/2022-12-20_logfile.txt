@@ -1,0 +1,9 @@
+2022-12-20 10:51:33.4784 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-20 11:13:13.8218 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-20 11:28:05.5425 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-20 11:30:01.8855 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-20 11:30:50.4972 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-20 11:32:25.2615 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-20 11:38:36.1522 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-20 12:02:51.1529 INFO Returned owner with details with ProductTpye for IdClientBase: 440
+2022-12-20 12:12:29.6066 INFO Returned owner with details with ProductTpye for IdClientBase: 440

@@ -7,7 +7,7 @@ namespace Repository
     {
         /*
          
-         podemos agegar clients, productos, actualizar clicos de clientes todo en un  solo método, 
+         podemos agegar clients, productos, actualizar ciclos de clientes todo en un  solo método, 
          y luego simplemente llamar al método Guardar una vez. Se aplicarán todos los cambios o, 
          si algo falla, se revertirán todos los cambios.
 

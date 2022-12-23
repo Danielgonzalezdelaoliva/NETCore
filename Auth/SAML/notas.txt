@@ -3,20 +3,16 @@ https://trial-9612586.okta.com/app/exk3kvk9ihqhfUJOA697/sso/saml/metadata
 
 https://developer.okta.com/blog/2020/10/23/how-to-authenticate-with-saml-in-aspnet-core-and-csharp
 
-SAML lenguaje de marcado de aserción de seguridad 
+SAML (Security Assertion Markup Language)
 Es un estándar abierto basado en XML para transferir datos de identidad entre dos partes: un proveedor de identidad (IdP) y un proveedor de servicios (SP).
 
 Objetivo: proporcionar un único de inicio de sesión
 
 Notas:con la introducción de OpenID Connect , que es una capa de autenticación construida sobre OAuth2, SAML ha quedado obsoleto.
 
-proveedor identidad: realiza la autenticación y pasa la identidad y el nivel de autorización del usuario al proveedor de servicios
+proveedor identidad (IdP): realiza la autenticación y pasa la identidad y el nivel de autorización del usuario al proveedor de servicios
 
-proveedor servicios: confía en el proveedor de identidad y autoriza al usuario dado a acceder al recurso solicitado
-
-
-
-
+proveedor servicios(SP): confía en el proveedor de identidad y autoriza al usuario dado a acceder al recurso solicitado
 
  "Issuer": "http://www.okta.com/exk3kvk9ihqhfUJOA697",
  

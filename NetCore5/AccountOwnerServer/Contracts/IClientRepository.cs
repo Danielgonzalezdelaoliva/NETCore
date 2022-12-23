@@ -7,5 +7,7 @@ namespace Contracts
     {
         IEnumerable<Client> GetAllClient();
         Client GetClientById(int IdClientBase);
+        Client GetClientByDetaills(int IdClientBase);
+        Client GetClientByDetaillsWithProductType(int IdClientBase);
     }
 }

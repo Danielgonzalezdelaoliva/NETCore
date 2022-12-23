@@ -39,7 +39,7 @@ Post.BlogId es la clave foránea
 
 Post.Blog es una propiedad de navegación de referencia
 
-Blog.Posts es una propiedad de navegación de colección
+Blog.Posts es una colección de propiedad de navegación
 
 Post.Blog es la propiedad de navegación inversa de Blog.Posts(y viceversa)
 
@@ -134,5 +134,9 @@ public class RecordOfSale
 
 DTO u Objeto de transferencia de datos sirve para transferir datos del servidor al cliente
  El objeto DTO podría ser exactamente igual que el objeto modelo, pero aun así, es mucho mejor usar objetos DTO porque si algo cambia en la base de datos, la clase del modelo debe cambiar, pero eso no significa que el cliente quiera resultados modificados. 
+
+
+ [JsonIgnore] --> Hay que usar la librería using Newtonsoft.Json de Microsoft.AspNetCore.Mvc.NewtonsoftJson. La librería que viene por defecto en framework ASP NET CORE 5 no funciona (using System.Text.Json.Serialization;)
+
 
 

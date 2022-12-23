@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zFXZyghjkV0Y4yc5hw+uf5LrZcsAHj8uWB+UGOak/6qZV+O4XLgZreHxBSK0zsJHv9zITzfJbItQ1waMJ0XjqA==",
+  "dgSpecHash": "uN1+C+cWvJir5LHLxRB0j96xPmBQ0qCj0jlgTBAaogMLPuPfakbNRr0keHVKmGHEq15iSVBq5Dus1kviVeeX0Q==",
   "success": true,
   "projectFilePath": "D:\\001 Daniel\\inicio\\Codigo\\Full stack\\WebAPI\\NetCore\\Auth\\SAML\\Okta_SAML_Example-master\\Okta_SAML_Example.csproj",
   "expectedPackageFiles": [

@@ -1,0 +1,89 @@
+sistemas distribuidos
+
+microservicios diff sistemas distribuidos
+
+ventanjas:
+fiabilidad
+equipos replicas
+escalabilidad
+
+desventajas
+latencia 
+
+observabilidad: tecnica para detectar donde da error dentro de todos los sistemas distribuids
+
+APIGateway: 
+Serivice discovery
+
+
+yard APIGateway (instalar nuget) . Esta APIGateway hace de ReverseProxy
+
+
+
+https://www.youtube.com/watch?v=IiOLFZWgHV0
+autentificacion: proceso login (recomendable utilizar doble autorizacion)
+
+autorizacion: acceso a diferentes partes de la web 
+
+abstracciones de vendors:
+vendors: una api especifica que esta dentro del ecosistema del sistema distribudo
+Generalmente se crea una librería para cenrtralziar todas las abstracciones con el nombre de Share o common
+
+ centralizar toda la configuración de WebApplicationBuilder en una único punto
+
+
+mininal API 
+
+https://www.youtube.com/watch?v=jeAhHAECrXw
+
+Crear api desde consola para generar el minimo codigo para que funcione una API
+
+
+Patron productor consumidor
+
+Productor: crea un proceso
+Consumidor: procesa/"consume" el procso
+
+Mediane colas de trabajo se gestiona los procesos
+
+RAbbitMQ
+es una libreria entre comunica 2 procesos entre un producer y consumers através queue(cola) y un exchage. Un Exchange es un 
+
+2 partes:
+
+servidor y cliente.
+La parte de servidor es la que tiene que ser instalada en el equipo
+
+
+
+tipo: record
+https://www.c-sharpcorner.com/article/c-sharp-9-0-introduction-to-record-types/
+
+Inmutable: crear tipo de datos que no puede cambiar. Es decir no puede agregar nuevas propiedades
+Que no puede ser cambiado o alterado.
+
+Para instalar docker:
+
+https://www.youtube.com/watch?v=_et7H0EQ8fY
+https://docs.docker.com/desktop/windows/wsl/
+
+login ubuntu
+user: dgonzalezdelaoliva
+pass : Tiburon4312
+
+
+Cuando instalamos docker podemos tener problemas de permisos:
+
+docker: Got permission denied while trying to connect to the Docker daemon socket at...
+
+Para solucionarlo seguir este proceso:
+https://www.drupaladicto.com/snippet/como-corregir-error-docker-got-permission-denied-while-trying-connect-docker-daemon-socket
+sudo usermod -aG docker dgonzalezdelaoliva
+su -s dgonzalezdelaoliva
+
+
+
+Para abrir en visual code habilitando do not use top-level statements. Es decir, que creas el program y el main
+dotnet new console -n Send --use-program-main 
+https://stackoverflow.com/questions/73927987/create-a-web-api-without-top-level-statements
+https://learn.microsoft.com/es-es/dotnet/core/tutorials/top-level-templates#use-the-old-program-style

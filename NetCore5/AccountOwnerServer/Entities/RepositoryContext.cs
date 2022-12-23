@@ -37,6 +37,8 @@ namespace Entities
                 .HasOne(p => p.ProductType)
                 .WithMany(cc => cc.ClientCycles)
                 .HasForeignKey(cc => cc.IdProductType);
+
+
         }
     }
 }

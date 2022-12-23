@@ -1,8 +1,6 @@
-﻿using System;
+﻿using Entities.Models;
+using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Entities.DataTransferObjects
 {
@@ -11,5 +9,8 @@ namespace Entities.DataTransferObjects
         public int IdProductType { get; set; }
 
         public string Name { get; set; }
+
+        [JsonIgnore]
+        public List<ClientCycle> ClientCycles { get; set; }
     }
 }

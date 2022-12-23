@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 using NLog;
 using System;
-using System.Configuration;
 using System.IO;
 
 namespace AccountOwnerServer
@@ -45,7 +45,18 @@ namespace AccountOwnerServer
             services.AddAutoMapper(typeof(Program));
 
             //agregamos servicio para visualizar controllers
-            services.AddControllers();
+            //services.AddControllers();
+
+            //agregamos servicio para visualizar controllers
+            services.AddControllers().AddNewtonsoftJson(options =>
+             {
+                 //para evitar las referencias circulares producidas en las propiedades de navegación
+                 options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;                
+             });
+
+
+     
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

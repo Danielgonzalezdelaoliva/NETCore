@@ -66,5 +66,57 @@ namespace AccountOwnerServer.Controllers
                 return StatusCode(500, "Internal server error");
             }
         }
+
+
+        [HttpGet("{IdClientBase}/cycle")]
+        public IActionResult GetClientByDetaills(int IdClientBase)
+        {
+            try
+            {
+                var client = _repository.Client.GetClientByDetaills(IdClientBase);
+                if (client is null)
+                {
+                    _logger.LogError($"Client with IdClientBase: {IdClientBase}, hasn't been found in db.");
+                    return NotFound();
+                }
+                else
+                {
+                    _logger.LogInfo($"Returned owner with details for IdClientBase: {IdClientBase}");
+                    var clientResult = _mapper.Map<ClientDTO>(client);
+                    return Ok(clientResult);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong inside GetClientByDetaills action: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpGet("{IdClientBase}/ProductType")]
+        public IActionResult GetClientByDetaillsWithProductType(int IdClientBase)
+        {
+            try
+            {
+                var client = _repository.Client.GetClientByDetaillsWithProductType(IdClientBase);
+                if (client is null)
+                {
+                    _logger.LogError($"Client with IdClientBase: {IdClientBase}, hasn't been found in db.");
+                    return NotFound();
+                }
+                else
+                {
+                    _logger.LogInfo($"Returned owner with details with ProductTpye for IdClientBase: {IdClientBase}");
+                    var clientResult = _mapper.Map<ClientDTO>(client);
+                    //return Ok(clientResult);
+                    return Ok(client);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong inside GetClientByDetaillsWithProductType action: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+        }
     }
 }

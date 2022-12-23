@@ -1,6 +1,7 @@
 ﻿using Contracts;
 using Entities;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -23,6 +24,21 @@ namespace Repository
         public Client GetClientById(int IdClientBase)
         {
             return FindByCondition(client => client.IdClientBase.Equals(IdClientBase))
+             .FirstOrDefault();
+        }
+
+        public Client GetClientByDetaills(int IdClientBase)
+        {
+            return FindByCondition(client => client.IdClientBase.Equals(IdClientBase))
+             .Include(cc =>cc.ClientCycles)
+             .FirstOrDefault();
+        }
+
+        public Client GetClientByDetaillsWithProductType(int IdClientBase)
+        {
+            return FindByCondition(client => client.IdClientBase.Equals(IdClientBase))
+             .Include(cc => cc.ClientCycles)
+             .ThenInclude(prd => prd.ProductType)
              .FirstOrDefault();
         }
     }

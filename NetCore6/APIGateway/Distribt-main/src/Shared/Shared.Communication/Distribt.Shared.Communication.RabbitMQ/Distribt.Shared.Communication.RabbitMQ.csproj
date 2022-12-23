@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>Distribt.Shared.Communication.RabbitMQ</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Distribt.Shared.Serialization\Distribt.Shared.Serialization.csproj" />
+      <ProjectReference Include="..\Distribt.Shared.Communication\Distribt.Shared.Communication.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="6.0.2" />
+      <PackageReference Include="RabbitMQ.Client" Version="6.2.2" />
+    </ItemGroup>
+
+    <Import Project="../../../../GlobalSettings.msbuild" />
+</Project>

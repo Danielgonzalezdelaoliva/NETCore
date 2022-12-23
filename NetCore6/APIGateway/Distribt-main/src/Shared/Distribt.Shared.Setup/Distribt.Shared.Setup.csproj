@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Distribt.Shared.Setup</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Distribt.Shared.Discovery\Distribt.Shared.Discovery.csproj" />
+    <ProjectReference Include="..\Distribt.Shared.EventSourcing\Distribt.Shared.EventSourcing.csproj" />
+    <ProjectReference Include="..\Distribt.Shared.Logging\Distribt.Shared.Logging.csproj" />
+    <ProjectReference Include="..\Distribt.Shared.Secrets\Distribt.Shared.Secrets.csproj" />
+    <ProjectReference Include="..\Distribt.Shared.Serialization\Distribt.Shared.Serialization.csproj" />
+    <ProjectReference Include="..\Shared.Communication\Distribt.Shared.Communication.RabbitMQ\Distribt.Shared.Communication.RabbitMQ.csproj" />
+    <ProjectReference Include="..\Shared.Databases\Distribt.Shared.Databases.MySql\Distribt.Shared.Databases.MySql.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="6.0.4" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.4" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="6.0.4" />
+    <PackageReference Include="Netmentor.ROP.ApiExtensions" Version="1.0.10" />
+    <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.3.0" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.3.0" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.0.0-rc9.4" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.0.0-rc9.4" />
+    <PackageReference Include="Scrutor" Version="4.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+  
+  <Import Project="../../../GlobalSettings.msbuild" />
+</Project>
