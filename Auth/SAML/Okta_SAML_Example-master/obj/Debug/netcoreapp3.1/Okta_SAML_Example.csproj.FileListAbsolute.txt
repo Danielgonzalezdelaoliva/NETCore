@@ -104,6 +104,64 @@ D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Okta_SAML_Example-master_o
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Okta_SAML_Example-master_old\obj\Debug\netcoreapp3.1\Okta_SAML_Example.dll
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Okta_SAML_Example-master_old\obj\Debug\netcoreapp3.1\Okta_SAML_Example.pdb
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Okta_SAML_Example-master_old\obj\Debug\netcoreapp3.1\Okta_SAML_Example.genruntimeconfig.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings - Copia.Development.json
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings - Copia.json
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings.json
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Okta_SAML_Example.exe
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Okta_SAML_Example.deps.json
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Okta_SAML_Example.runtimeconfig.json
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Okta_SAML_Example.runtimeconfig.dev.json
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Okta_SAML_Example.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Okta_SAML_Example.pdb
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Okta_SAML_Example.Views.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Okta_SAML_Example.Views.pdb
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\ITfoxtec.Identity.Saml2.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\ITfoxtec.Identity.Saml2.MvcCore.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.Saml.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Xml.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.csproj.AssemblyReference.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.GeneratedMSBuildEditorConfig.editorconfig
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.AssemblyInfoInputs.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.AssemblyInfo.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.csproj.CoreCompileInputs.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.MvcApplicationPartsAssemblyInfo.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.MvcApplicationPartsAssemblyInfo.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.RazorAssemblyInfo.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.RazorAssemblyInfo.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\staticwebassets\Okta_SAML_Example.StaticWebAssets.Manifest.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\staticwebassets\Okta_SAML_Example.StaticWebAssets.xml
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\scopedcss\bundle\Okta_SAML_Example.styles.css
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.TagHelpers.input.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.TagHelpers.output.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.RazorCoreGenerate.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Razor\Pages\Claims.cshtml.g.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.RazorTargetAssemblyInfo.cache
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.RazorTargetAssemblyInfo.cs
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.Views.pdb
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.csproj.CopyComplete
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.dll
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.pdb
+F:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.genruntimeconfig.cache
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings - Copia.Development.json
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings - Copia.json
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings.json
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\Okta_SAML_Example.exe
@@ -128,7 +186,6 @@ D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Exampl
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
-D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.csproj.AssemblyReference.cache
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.GeneratedMSBuildEditorConfig.editorconfig
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.AssemblyInfoInputs.cache
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.AssemblyInfo.cs
@@ -158,5 +215,4 @@ D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Exampl
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.dll
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.pdb
 D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.genruntimeconfig.cache
-D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings - Copia.Development.json
-D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\bin\Debug\netcoreapp3.1\appsettings - Copia.json
+D:\001 Daniel\inicio\Codigo\Full stack\WebAPI\NetCore\Auth\SAML\Okta_SAML_Example-master\obj\Debug\netcoreapp3.1\Okta_SAML_Example.csproj.AssemblyReference.cache

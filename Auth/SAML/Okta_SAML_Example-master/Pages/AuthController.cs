@@ -44,7 +44,13 @@ namespace Okta_SAML_Example.Controllers
             {
                 throw new AuthenticationException($"SAML Response status: {saml2AuthnResponse.Status}");
             }
+
+            //da un error de Signature Invalid. 
+            //el problema es que el valor del Ipd no corresponde el valor viene dentro del fichero xml saml2AuthnResponse. 
+            //en concreto el valor incorrecto es el protocolo Https. En fichero devuelto aparece con Http
             binding.Unbind(Request.ToGenericHttpRequest(), saml2AuthnResponse);
+
+
             await saml2AuthnResponse.CreateSession(HttpContext, claimsTransform: (claimsPrincipal) => ClaimsTransform.Transform(claimsPrincipal));
 
             var relayStateQuery = binding.GetRelayStateQuery();

@@ -1,0 +1,65 @@
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" Destination="https://localhost:44379/Auth/AssertionConsumerService" ID="_0de1b76c3ad24ee3abf8003c94968abc" InResponseTo="_c4139de1-df4d-4292-8bbc-ea63058428d1" IssueInstant="2023-01-04T08:20:58Z" Version="2.0">
+	<saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">http://fortiauth.mecalux.com/saml-idp/7c9v77tfj32q5wn5/metadata/</saml:Issuer>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<ds:Reference URI="#_0de1b76c3ad24ee3abf8003c94968abc">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<ds:DigestValue>JHm7oi32UKpRy4CiB6PSmMPqhyk=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>LRzl4q/8ittFEXDnvtdITn02FpjNbJM0Zn95NQQat4m94jcwI0XUds0C5QGDRmeQSM6/rUWrqKr7RRWJLBW75suAQdncsn+vk/ouuq+CHpNKJ+LDpJxZFeeHObyHJ53hCVkj2waCClJZS4BcnhdEl5wp+GM1C5u8E2iGaKpKd3jph4Lhx1LZL1Zy8c08mJJ9h7lgaUWcrSNhOtfdyNURh9DYeSufSg4IqRrc2wIHziWS/mumqCSIp97Udqm2pERIThxjy4twFmI1b/mDJuWfG3EbDcN6qym3UocSbv/k6h8H97+3ThxCY4J+4PpDsJbYIt4PeV0oxPj794G1GpqsbQ==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>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</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</ds:Signature>
+	<samlp:Status>
+		<samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+	</samlp:Status>
+	<saml:Assertion xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="_33c7bcc5073744c8bfe71ca60b8c1bb2" IssueInstant="2023-01-04T08:20:58Z" Version="2.0">
+		<saml:Issuer>http://fortiauth.mecalux.com/saml-idp/7c9v77tfj32q5wn5/metadata/</saml:Issuer>
+		<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+			<ds:SignedInfo>
+				<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+				<ds:Reference URI="#_33c7bcc5073744c8bfe71ca60b8c1bb2">
+					<ds:Transforms>
+						<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+						<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+					</ds:Transforms>
+					<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+					<ds:DigestValue>6299IEWV1nS+EYxZLw2dZxf09zU=</ds:DigestValue>
+				</ds:Reference>
+			</ds:SignedInfo>
+			<ds:SignatureValue>UraAwLyBUDLM3xGQsg2EWWEj8iqZkNu3nuXvCuRpk3DdBYqHvI/4cTdPmngvTn6lUbukLgliz9WDN1N9rTOaH9wUtkxncLpMC7VcimZRv8N1ScaCPBxEN0hI7TZ9ok44X77Ir5nQKO4RT/U4XIRniGm9hZtbU7DCGjf16K3hf0XB6Gr3d0gscffwL83E1PgrwHslFPfq8t0IQRFIlyEMH2+2o7CAykQf62lyHMMZwCSY+ob2vxNS8lpZnwJlO1oMODMOWG2ScuximKWx91jddnD7Rjw1wecZw5uDwLngeTHOkYilfIZlqivKPXVdbUAGDrdRZmS0kLgKrIwV03Bngg==</ds:SignatureValue>
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>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</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</ds:Signature>
+		<saml:Subject>
+			<saml:NameID Format="urn:oasis:names:tc:SAML:2.0:nameid-format:unspecified" SPNameQualifier="Okta_SAML_Example">dgonzalezdelaoliva</saml:NameID>
+			<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+				<saml:SubjectConfirmationData InResponseTo="_c4139de1-df4d-4292-8bbc-ea63058428d1" NotOnOrAfter="2023-01-04T08:35:58Z" Recipient="https://localhost:44379/Auth/AssertionConsumerService"/>
+			</saml:SubjectConfirmation>
+		</saml:Subject>
+		<saml:Conditions NotBefore="2023-01-04T08:05:58Z" NotOnOrAfter="2023-01-04T08:35:58Z">
+			<saml:AudienceRestriction>
+				<saml:Audience>Okta_SAML_Example</saml:Audience>
+			</saml:AudienceRestriction>
+		</saml:Conditions>
+		<saml:AuthnStatement AuthnInstant="2023-01-04T08:20:58Z">
+			<saml:AuthnContext>
+				<saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</saml:AuthnContextClassRef>
+			</saml:AuthnContext>
+		</saml:AuthnStatement>
+	</saml:Assertion>
+</samlp:Response>
